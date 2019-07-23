@@ -16,7 +16,7 @@ package shotocode.com.creational.factory;
 public class Usage {
 
 	public static void main(String args[]) {
-		MathFactory factory = new MathFactory();
+		FactoryProvider factory = new FactoryProvider();
 		Calculator calculator = factory.getCalculator("add");
 		calculator.calculate(1, 2);
 		

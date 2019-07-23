@@ -13,7 +13,7 @@
 
 package shotocode.com.creational.factory;
 
-public class MathFactory {
+public class FactoryProvider {
 
 	public Calculator getCalculator(String type){
 		if(type.equalsIgnoreCase("add")) {
