@@ -8,7 +8,20 @@
  * ************************************************************
  *	
  * @date Jul 22, 2019
- * @author mbavakha
+ * @author Katsum
+ * 
+ * 										 -- Type1Impl
+ * 								   		|			
+ * 				  	-- Type1Interface --
+ * 				   |			   	 	|											
+ * 				   |					 -- Type1Impl
+ * 	  Provider ----  
+ * 				   |					 -- Type2Impl
+ * 				   |					|
+ * 					-- Type2Interface --																
+ * 								  		| 
+ * 										 -- Type2Impl												
+ * 
  */
 
 package shotocode.com.creational.factory;
